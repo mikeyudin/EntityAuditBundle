@@ -364,7 +364,6 @@ final class RelationTest extends BaseTest
         static::assertCount(1, $audited->getOwnedInverse());
     }
 
-
     public function testManyToManyMultipleRelationshipSameTargetEntity(): void
     {
         $em = $this->getEntityManager();
